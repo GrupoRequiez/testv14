@@ -12,6 +12,7 @@
         "account_asset",
         "account_budget",
         "account_online_sync",
+        # "account_followup",
         "base_import_module",
         "board",
         "calendar",
@@ -103,13 +104,14 @@
         "report/report_invoice.xml",
         "report/purchase_order_templates.xml",
         "report/purchase_quotation_templates.xml",
-        "report/mrp_mps_report_templates.xml",
     ],
     "demo": [
     ],
     "test": [
     ],
-    "qweb": [],
+    "qweb": [
+        "static/src/xml/qweb_teplates.xml",
+    ],
     "pre_init_hook": "pre_init_hook",
     "auto_install": False,
     "application": True,
