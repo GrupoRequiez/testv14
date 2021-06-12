@@ -12,7 +12,6 @@
         "account_asset",
         "account_budget",
         "account_online_sync",
-        # "account_followup",
         "base_import_module",
         "board",
         "calendar",
